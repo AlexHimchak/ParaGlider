@@ -1,0 +1,32 @@
+LVL 0 *** MAKE SURE TO BE IN US-EAST-1 ***
+    - Run CLI - pre kinesis hookup -> log event data to console
+
+
+Lvl 1 
+    - Lambda function works - prints to cloudwatch
+
+Lvl 2 
+    - single site notification
+
+LVL 3 - multipe services
+    - notification
+    - special calc notify -> different paraglider configs    
+
+BOSS
+    - DB 
+    - Take multiple events and do aggregated calcs
+    - send one notification for a successful day
+    - dont send notification outside of ideal times
+
+
+
+// TODO
+//Alex
+Add src directiory to github repo
+    - Dump JSON data into there
+Write lambda function in NodeJS
+    - Read a stream from kinesis (LVL 1)
+    - Log info, validate in cloudwatch logs
+
+//Spencer
+    - C# console app
